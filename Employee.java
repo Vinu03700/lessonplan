@@ -17,7 +17,6 @@ public void displayinfo(){
 }
 public static void main(String[] args) {
     Employee emp1=new Employee("xyz",101,55000.0);
-
     emp1.displayinfo();
 
 }
