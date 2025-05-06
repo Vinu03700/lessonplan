@@ -12,7 +12,8 @@ public Employee (String name,int id,double salary)
 public void displayinfo(){
     System.out.println("Employee Id : "+id);
     System.out.println("Employee Name : "+name);
-    System.out.println("Employee Salary : no");
+    System.out.println("Employee Salary : no"+salary);
+    System.out.println("Employee number:99049489");
 
 }
 public static void main(String[] args) {
