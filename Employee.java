@@ -4,7 +4,7 @@ int id;
 double salary;
         String adress;
     
-public Employee (String name,int id,double salary)
+public Employee (String name,int id,double salary, String adress)
 {
     this.name=name;
     this.id=id;
@@ -22,7 +22,7 @@ public void displayinfo(){
 public static void main(String[] args) {
     Employee emp1=new Employee("xyz",101,55000.0,"Hubbali");
 
-    Employee emp1=new Employee("xyz",101,55000.0);
+
     emp1.displayinfo();
 
 }
